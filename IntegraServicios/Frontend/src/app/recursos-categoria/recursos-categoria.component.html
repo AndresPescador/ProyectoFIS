@@ -53,10 +53,75 @@
             <a class="nav-link" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#categorias">Prestamos</a>
+            <a class="nav-link" (click)="scrollTo('content')">Prestamos</a>
           </li>
         </ul>
       </div>
     </div>
   </div>
+  <div class="content">
+    <div class="container">
+      <h2 class="mb-5">{{ message }} - Recursos Disponibles</h2>
+
+      <div class="table-responsive custom-table-responsive">
+        <table class="table custom-table">
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Estado</th>
+              <th scope="col">Disponibilidad</th>
+              <th scope="col">Reservar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr scope="row">
+              <td>1</td>
+              <td>
+                Cancha los alpes
+                <small class="d-block"
+                  >Descripcion: La cancha de futbol los alpes es bien
+                  rara</small
+                >
+              </td>
+              <td>Si</td>
+              <td>Si</td>
+              <td><button class="button-3" role="button">equis de</button></td>
+            </tr>
+            <tr class="spacer">
+              <td colspan="100"></td>
+            </tr>
+            <tr scope="row">
+              <td>2</td>
+              <td>
+                Cancha los muchachos
+                <small class="d-block"
+                  >Descripcion: La cancha de futbol los muchachos es bien
+                  rara</small
+                >
+              </td>
+              <td>Si</td>
+              <td>Si</td>
+              <td><button class="button-3" role="button">equis de</button></td>
+            </tr>
+            <tr class="spacer">
+              <td colspan="100"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 </body>
+<footer>
+  <div id="back-to-top" class="back-to-top">
+    <button
+      class="btn btn-dark"
+      title="Volver al inicio"
+      style="display: block"
+      (click)="scrollTo('apartadosPrincipales')"
+    >
+      <i class="fa fa-angle-up"></i>
+    </button>
+  </div>
+</footer>
