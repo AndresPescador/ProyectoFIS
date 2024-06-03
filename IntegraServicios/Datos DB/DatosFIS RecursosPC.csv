@@ -1,0 +1,16 @@
+id,disponibilidad,nombre,descripcion,estado,idUnidadServicio
+106,6:00am-7:00am,Computadora 1,Computadora de escritorio con procesador Intel Core i5 y 8GB de RAM,disponible,8
+107,7:00am-8:00am,Computadora 2,Computadora portátil con pantalla táctil y SSD de 256GB,disponible,8
+108,8:00am-9:00am,Computadora 3,Computadora todo en uno con pantalla de 27 pulgadas y webcam integrada,disponible,8
+109,9:00am-10:00am,Computadora 4,Computadora de gaming con tarjeta gráfica NVIDIA GeForce RTX 3080,disponible,8
+110,10:00am-11:00am,Computadora 5,Computadora de diseño con pantalla 4K y lápiz óptico,disponible,8
+111,11:00am-12:00pm,Computadora 6,Computadora de negocios con lector de huellas digitales y batería de larga duración,disponible,8
+112,12:00pm-1:00pm,Computadora 7,Computadora industrial con chasis resistente y refrigeración líquida,disponible,8
+113,1:00pm-2:00pm,Computadora 8,Computadora de servidor con procesador Xeon y 32GB de RAM ECC,disponible,8
+114,2:00pm-3:00pm,Computadora 9,Computadora de edición de video con tarjeta de captura Blackmagic,disponible,8
+115,3:00pm-4:00pm,Computadora 10,Computadora educativa con software de aprendizaje interactivo,disponible,8
+116,4:00pm-5:00pm,Computadora 11,Computadora para desarrollo con sistema operativo Linux y entorno de programación integrado,disponible,8
+117,5:00pm-6:00pm,Computadora 12,Computadora multimedia con altavoces integrados y pantalla táctil,disponible,8
+118,6:00pm-7:00pm,Computadora 13,Computadora para diseño gráfico con tableta digitalizadora y software Adobe Creative Suite,disponible,8
+119,7:00pm-8:00pm,Computadora 14,Computadora de oficina con teclado ergonómico y monitor de alta definición,disponible,8
+120,6:00am-8:00am,Computadora 15,Computadora versátil para uso doméstico y empresarial,disponible,8

@@ -1,0 +1,16 @@
+id,disponibilidad,nombre,descripcion,estado,idUnidadServicio
+1,6:00am-7:00am,Cien Años de Soledad,Una novela emblemática de Gabriel García Márquez,disponible,7
+2,7:00am-8:00am,1984,Una distopía escrita por George Orwell,disponible,7
+3,8:00am-9:00am,Don Quijote de la Mancha,La famosa obra de Miguel de Cervantes,disponible,7
+4,9:00am-10:00am,Orgullo y Prejuicio,Una novela clásica de Jane Austen,disponible,7
+5,10:00am-11:00am,El Gran Gatsby,Una obra de F. Scott Fitzgerald sobre la era del jazz,disponible,7
+6,11:00am-12:00pm,Matar a un Ruiseñor,Una novela sobre la injusticia racial escrita por Harper Lee,disponible,7
+7,12:00pm-1:00pm,Crimen y Castigo,Una novela psicológica de Fyodor Dostoevsky,disponible,7
+8,1:00pm-2:00pm,La Odisea,El épico poema de Homero,disponible,7
+9,2:00pm-3:00pm,El Señor de los Anillos,La famosa trilogía de J.R.R. Tolkien,disponible,7
+10,3:00pm-4:00pm,La Divina Comedia,El poema épico de Dante Alighieri,disponible,7
+11,4:00pm-5:00pm,Los Miserables,La extensa novela de Victor Hugo sobre la sociedad francesa,disponible,7
+12,5:00pm-6:00pm,Ulises,Una obra modernista de James Joyce,disponible,7
+13,6:00pm-7:00pm,En Busca del Tiempo Perdido,Una extensa novela de Marcel Proust,disponible,7
+14,7:00pm-8:00pm,El Proceso,Una novela sobre la burocracia y la justicia de Franz Kafka,disponible,7
+15,6:00am-8:00am,El Principito,Un cuento filosófico de Antoine de Saint-Exupéry,disponible,7

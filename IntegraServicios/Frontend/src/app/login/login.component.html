@@ -36,8 +36,8 @@
       <div class="login form">
         <header>Inicio de Sesión</header>
         <form action="#">
-          <input type="text" placeholder="Ingrese su correo electronico" />
-          <input type="password" placeholder="Ingrese su contraseña" />
+          <input type="email" placeholder="Ingrese su correo electronico" />
+          <input type="password" placeholder="Cree una contraseña" />
           <a href="#">¿Olvido su contraseña?</a>
           <input type="button" class="button" value="Iniciar sesion" />
         </form>
@@ -50,13 +50,14 @@
       </div>
       <div class="registration form">
         <header>Registro de usuario</header>
-        <form action="#">
-          <input type="text" placeholder="Ingrese su nombre" />
-          <input type="text" placeholder="Ingrese su numero de telefono" />
-          <input type="email" placeholder="Ingrese su correo electronico" />
-          <input type="password" placeholder="Cree una contraseña" />
-          <input type="password" placeholder="Confirme su contraseña" />
-          <input type="button" class="button" value="Registrarse" />
+        <form (ngSubmit)="registrarse()"> 
+          <input type="text" placeholder="Ingrese su número de documento" [(ngModel)]="id" name="id" required />
+          <input type="text" placeholder="Ingrese su nombre" [(ngModel)]="nombre" name="nombre" required/>
+          <input type="text" placeholder="Ingrese su numero de telefono" [(ngModel)]="telefono" name="telefono" required/>
+          <input type="email" placeholder="Ingrese su correo electronico" [(ngModel)]="correo" name="correo" required/>
+          <input type="password" placeholder="Cree una contraseña" [(ngModel)]="contrasena" name="contrasena" required/>
+          <input type="password" placeholder="Confirme su contraseña" [(ngModel)]="confirmPassword" name="confirmPassword" required/>
+          <input type="submit"title="Registrarse" class="button" value="Registrarse" />
         </form>
         <div class="signup">
           <span class="signup"

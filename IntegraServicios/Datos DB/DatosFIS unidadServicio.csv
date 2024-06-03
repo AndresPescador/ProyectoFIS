@@ -1,0 +1,10 @@
+id,horarioDisponible,nombre
+1,6:00am-8:00am,Salas de danza
+2,8:00am-10:00am,Laboratorios de Quimica
+3,10:00am-12:00pm,Auditorios
+4,12:00pm-2:00pm,Canchas de futbol
+5,2:00pm-4:00pm,Laboratorios de informatica
+6,4:00pm-6:00pm,Laboratorios de fisica
+7,6:00pm-8:00pm,Prestamo de libros
+8,6:00am-10:00am,Prestamo de computadores
+9,2:00pm-6:00pm,Presamo de tablets

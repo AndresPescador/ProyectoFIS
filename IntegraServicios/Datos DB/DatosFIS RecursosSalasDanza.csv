@@ -1,0 +1,16 @@
+id,disponibilidad,nombre,descripcion,estado,idUnidadServicio
+16,6:00am-7:00am,Sala de Danza 1,Amplia sala con espejos y piso de madera,disponible,1
+17,7:00am-8:00am,Sala de Danza 2,Equipada con barra de ballet y sistema de sonido,disponible,1
+18,8:00am-9:00am,Sala de Danza 3,Espacio con iluminación natural y ventilación,disponible,1
+19,9:00am-10:00am,Sala de Danza 4,Sala con aire acondicionado y suelo de linóleo,disponible,1
+20,10:00am-11:00am,Sala de Danza 5,Espacio ideal para danza contemporánea y jazz,disponible,1
+21,11:00am-12:00pm,Sala de Danza 6,Salón con equipo de música y espejos en todas las paredes,disponible,1
+22,12:00pm-1:00pm,Sala de Danza 7,Área espaciosa para ensayos grupales y presentaciones,disponible,1
+23,1:00pm-2:00pm,Sala de Danza 8,Equipado con barras móviles y sistema de sonido envolvente,disponible,1
+24,2:00pm-3:00pm,Sala de Danza 9,Sala con buena acústica y ventilación mecánica,disponible,1
+25,3:00pm-4:00pm,Sala de Danza 10,Espacio con espejos de cuerpo entero y piso amortiguado,disponible,1
+26,4:00pm-5:00pm,Sala de Danza 11,Sala con techos altos y ambiente climatizado,disponible,1
+27,5:00pm-6:00pm,Sala de Danza 12,Sala equipada con tecnología audiovisual y piso de danza,disponible,1
+28,6:00pm-7:00pm,Sala de Danza 13,Espacio multifuncional para diversas disciplinas de danza,disponible,1
+29,7:00pm-8:00pm,Sala de Danza 14,Sala con capacidad para grandes grupos y presentaciones,disponible,1
+30,6:00am-8:00am,Sala de Danza 15,Sala íntima para clases privadas y pequeños grupos,disponible,1

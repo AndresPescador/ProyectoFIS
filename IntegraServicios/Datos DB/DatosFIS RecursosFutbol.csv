@@ -1,0 +1,16 @@
+id,disponibilidad,nombre,descripcion,estado,idUnidadServicio
+61,6:00am-7:00am,Cancha de Fútbol 1,Cancha de césped natural con iluminación nocturna,disponible,4
+62,7:00am-8:00am,Cancha de Fútbol 2,Espacio amplio con gradas para 200 personas,disponible,4
+63,8:00am-9:00am,Cancha de Fútbol 3,Cancha con vestuarios y duchas,disponible,4
+64,9:00am-10:00am,Cancha de Fútbol 4,Espacio con césped sintético y sistema de riego automático,disponible,4
+65,10:00am-11:00am,Cancha de Fútbol 5,Cancha reglamentaria con marcador electrónico,disponible,4
+66,11:00am-12:00pm,Cancha de Fútbol 6,Espacio con buena ventilación y sombras naturales,disponible,4
+67,12:00pm-1:00pm,Cancha de Fútbol 7,Cancha equipada con bancos de suplentes y árbitros,disponible,4
+68,1:00pm-2:00pm,Cancha de Fútbol 8,Espacio con césped híbrido y área para entrenamiento,disponible,4
+69,2:00pm-3:00pm,Cancha de Fútbol 9,Cancha multiusos con zona de picnic cercana,disponible,4
+70,3:00pm-4:00pm,Cancha de Fútbol 10,Espacio con accesibilidad para personas con discapacidad,disponible,4
+71,4:00pm-5:00pm,Cancha de Fútbol 11,Cancha con excelente drenaje y mantenimiento regular,disponible,4
+72,5:00pm-6:00pm,Cancha de Fútbol 12,Espacio con gradas techadas y áreas verdes,disponible,4
+73,6:00pm-7:00pm,Cancha de Fútbol 13,Cancha con zona de calentamiento y entrenamiento,disponible,4
+74,7:00pm-8:00pm,Cancha de Fútbol 14,Espacio con buena iluminación y cercado perimetral,disponible,4
+75,6:00am-8:00am,Cancha de Fútbol 15,Cancha reglamentaria con sistema de sonido,disponible,4

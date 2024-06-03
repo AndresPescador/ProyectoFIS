@@ -1,6 +1,14 @@
 const express = require("express");
 const PORT = process.env.PORT || 3001;
 const app = express();
+app.use(express.json());
+
+const cors = require("cors");
+app.use(cors({
+  origin: 'http://localhost:4200', // Permitir solicitudes desde el frontend
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'UPDATE'], // Métodos permitidos
+  allowedHeaders: ['Content-Type', 'Authorization'] // Encabezados permitidos
+}));
 
 const sqlite3 = require('sqlite3').verbose();
 
@@ -27,6 +35,7 @@ function pruebaCrearRegistro(id,name, phone, email, password) {
 
 //pruebaCrearRegistro(1234,'John Doe', '123-456-7890', 'johndoe@example.com', 'secure_password');
 
+<<<<<<< Updated upstream
 //Endpoints
 app.post("/Login", (req, res) => {
   let row = "";
@@ -36,6 +45,18 @@ app.post("/Login", (req, res) => {
       return res.json({ message: "Error interno del servidor" });
     }
 
+=======
+ 
+
+app.post("/Login", (req, res) => {
+  let row = "";
+  sql = "SELECT * FROM Persona WHERE id = ?";
+  db.get(sql, [req.body.id], (err, row) => {
+    if (err) {
+      return res.json({ message: "Error interno del servidor" });
+    }
+
+>>>>>>> Stashed changes
     if (!row) {
       return res.json({ message: "Usuario no encontrado" });
     }
@@ -49,11 +70,23 @@ app.post("/Login", (req, res) => {
 });
 
 app.post("/Registrar", (req,res) =>{
+<<<<<<< Updated upstream
   const sql ='INSERT INTO Persona(id, nombre, telefono, correoElectronico, contrasena) VALUES (?, ?, ?, ?, ?)';
   db.run(sql,[req.body.id, req.body.nombre, req.body.telefono, req.body.correoElectronico, req.body.contrasena], (err) =>{
     if (err){
       return res.json({message: "Ya se encuentra registrado"});
     }
+=======
+  console.log("Ingreso a endpoint registrar");
+  const sql ='INSERT INTO Persona(id, nombre, telefono, correoElectronico, contrasena) VALUES (?, ?, ?, ?, ?)';
+  db.run(sql,[req.body.id, req.body.nombre, req.body.telefono, req.body.correoElectronico, req.body.contrasena], (err) =>{
+    if (err){
+      console.log("No se registro");
+      console.error("Error al registrar:", err.message);
+      return res.json({message: "Ya se encuentra registrado"});
+    }
+      console.log("Se registro");
+>>>>>>> Stashed changes
       return res.json({message: "Registrado"});
     ;
     })
@@ -80,9 +113,17 @@ app.post("/ConsultarUnidadServicio", (req, res) => {
     if (err) {
       return res.json({ message: "Error interno del servidor" });
     }
+<<<<<<< Updated upstream
     if (!row) {
       return res.json({ message: "No se encontró la unidad" });
     }
+=======
+
+    if (!row) {
+      return res.json({ message: "No se encontró la unidad" });
+    }
+
+>>>>>>> Stashed changes
     const unidad = {
       id: row.id,
       horarioDisponible: row.horarioDisponible,
@@ -161,6 +202,11 @@ app.post("/ConsultarReservas", (req, res) => {
   });
 });
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 app.post("/ActualizarReserva", (req, res) => {
     const sql = 'UPDATE Reserva SET estado = ? WHERE id = ?';
     db.all(sql, [req.body.estado,req.body.id], (err, rows) => {

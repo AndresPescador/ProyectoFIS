@@ -1,0 +1,16 @@
+id,disponibilidad,nombre,descripcion,estado,idUnidadServicio
+76,6:00am-7:00am,Laboratorio de Informática 1,Laboratorio equipado con 20 computadoras y software especializado,disponible,5
+77,7:00am-8:00am,Laboratorio de Informática 2,Espacio con acceso a internet de alta velocidad y proyectores,disponible,5
+78,8:00am-9:00am,Laboratorio de Informática 3,Laboratorio con estaciones de trabajo para programación y diseño,disponible,5
+79,9:00am-10:00am,Laboratorio de Informática 4,Equipado con impresoras 3D y dispositivos de realidad virtual,disponible,5
+80,10:00am-11:00am,Laboratorio de Informática 5,Espacio con servidores dedicados y equipos de red,disponible,5
+81,11:00am-12:00pm,Laboratorio de Informática 6,Laboratorio con software de desarrollo y herramientas de colaboración,disponible,5
+82,12:00pm-1:00pm,Laboratorio de Informática 7,Espacio con computadoras de última generación y pantallas duales,disponible,5
+83,1:00pm-2:00pm,Laboratorio de Informática 8,Equipado con dispositivos móviles para desarrollo de aplicaciones,disponible,5
+84,2:00pm-3:00pm,Laboratorio de Informática 9,Laboratorio con estaciones de trabajo para simulaciones y modelado,disponible,5
+85,3:00pm-4:00pm,Laboratorio de Informática 10,Espacio con equipos de alta capacidad para análisis de datos,disponible,5
+86,4:00pm-5:00pm,Laboratorio de Informática 11,Laboratorio con software para ciberseguridad y pruebas de penetración,disponible,5
+87,5:00pm-6:00pm,Laboratorio de Informática 12,Equipado con estaciones de trabajo para edición de video y audio,disponible,5
+88,6:00pm-7:00pm,Laboratorio de Informática 13,Laboratorio con dispositivos IoT y herramientas de desarrollo integradas,disponible,5
+89,7:00pm-8:00pm,Laboratorio de Informática 14,Espacio con estaciones de trabajo para aprendizaje automático y AI,disponible,5
+90,6:00am-8:00am,Laboratorio de Informática 15,Laboratorio multifuncional para diversas disciplinas de informática,disponible,5

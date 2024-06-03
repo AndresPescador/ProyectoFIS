@@ -1,0 +1,16 @@
+id,disponibilidad,nombre,descripcion,estado,idUnidadServicio
+46,6:00am-7:00am,Auditorio Central,Auditorio principal con capacidad para 500 personas,disponible,3
+47,7:00am-8:00am,Auditorio Norte,Espacio moderno equipado con tecnología audiovisual avanzada,disponible,3
+48,8:00am-9:00am,Auditorio Sur,Sala con excelente acústica y asientos ergonómicos,disponible,3
+49,9:00am-10:00am,Auditorio Este,Auditorio con capacidad para 300 personas y pantalla gigante,disponible,3
+50,10:00am-11:00am,Auditorio Oeste,Espacio con escenario amplio y equipo de sonido profesional,disponible,3
+51,11:00am-12:00pm,Auditorio Pequeño,Auditorio íntimo para conferencias y charlas,disponible,3
+52,12:00pm-1:00pm,Auditorio Grande,Espacio para grandes eventos y presentaciones,disponible,3
+53,1:00pm-2:00pm,Auditorio Jardín,Auditorio al aire libre con capacidad para 200 personas,disponible,3
+54,2:00pm-3:00pm,Auditorio Universidad,Auditorio universitario para eventos académicos,disponible,3
+55,3:00pm-4:00pm,Auditorio Cultural,Espacio para eventos culturales y artísticos,disponible,3
+56,4:00pm-5:00pm,Auditorio Empresarial,Auditorio para seminarios y conferencias de negocios,disponible,3
+57,5:00pm-6:00pm,Auditorio Científico,Espacio para presentaciones científicas y tecnológicas,disponible,3
+58,6:00pm-7:00pm,Auditorio Municipal,Auditorio comunitario con excelente accesibilidad,disponible,3
+59,7:00pm-8:00pm,Auditorio Teatro,Auditorio con capacidad para producciones teatrales,disponible,3
+60,6:00am-8:00am,Auditorio Multiusos,Espacio versátil para cualquier tipo de evento,disponible,3

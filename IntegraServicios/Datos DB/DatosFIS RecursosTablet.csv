@@ -1,0 +1,16 @@
+id,disponibilidad,nombre,descripcion,estado,idUnidadServicio
+121,6:00am-7:00am,Tablet 1,Tablet con pantalla de 10 pulgadas y procesador octa-core,disponible,9
+122,7:00am-8:00am,Tablet 2,Tablet con resolución Full HD y sistema operativo Android,disponible,9
+123,8:00am-9:00am,Tablet 3,Tablet resistente al agua y al polvo con certificación IP68,disponible,9
+124,9:00am-10:00am,Tablet 4,Tablet con lápiz óptico y soporte para redes 5G,disponible,9
+125,10:00am-11:00am,Tablet 5,Tablet con batería de larga duración y carga rápida,disponible,9
+126,11:00am-12:00pm,Tablet 6,Tablet con cámara trasera de alta resolución y modo de retrato,disponible,9
+127,12:00pm-1:00pm,Tablet 7,Tablet con almacenamiento expandible y lector de huellas dactilares,disponible,9
+128,1:00pm-2:00pm,Tablet 8,Tablet con conectividad Bluetooth y GPS integrado,disponible,9
+129,2:00pm-3:00pm,Tablet 9,Tablet con altavoces estéreo y micrófono de cancelación de ruido,disponible,9
+130,3:00pm-4:00pm,Tablet 10,Tablet con pantalla táctil capacitiva y tecnología de visualización avanzada,disponible,9
+131,4:00pm-5:00pm,Tablet 11,Tablet con procesador de alto rendimiento y gráficos potentes,disponible,9
+132,5:00pm-6:00pm,Tablet 12,Tablet con diseño delgado y ligero perfecta para viajes,disponible,9
+133,6:00pm-7:00pm,Tablet 13,Tablet con modo de ahorro de energía y optimización de rendimiento,disponible,9
+134,7:00pm-8:00pm,Tablet 14,Tablet con múltiples opciones de conectividad y compatibilidad con accesorios,disponible,9
+135,6:00am-8:00am,Tablet 15,Tablet versátil para entretenimiento y productividad,disponible,9
