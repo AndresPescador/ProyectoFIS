@@ -3,6 +3,11 @@ import { RouterLink } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
+
+interface LoginResponse {
+  message: string;
+}
+
 @Component({
   selector: 'app-login',
   standalone: true,
@@ -11,7 +16,8 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './login.component.css'
 })
 export class LoginComponent  {
-
+  
+  //Datos para registrarse
   id: string = '';
   nombre: string = '';
   telefono: string = '';
@@ -35,20 +41,55 @@ export class LoginComponent  {
       correoElectronico: this.correo,
       contrasena: this.contrasena
     };
-
-    console.log('Enviando datos al servidor:',datos);
     
-    this.http.post('http://localhost:3001/Registrar', datos)
+    this.http.post<LoginResponse>('http://localhost:3001/Registrar', datos)
       .subscribe(
         (respuesta) => {
-          console.log('Registro exitoso:', respuesta);
           this.mensaje = 'Registro exitoso';
-          // Redireccionar a la página de inicio de sesión o realizar otra acción
+          alert(this.mensaje);
+          //Agregar redireccionamiento a página inicio sesión
         },
         (error) => {
-          console.error('Error al registrarse:', error);
           this.mensaje = 'Error al registrarse';
-          // Mostrar un mensaje de error al usuario
+          alert(this.mensaje);
+        }
+      );
+  }
+
+
+  //Datos para login
+  idL: String ="";
+  contrasenaL: string = '';
+
+  Logueo() {
+    const datos = {
+      id: this.idL,
+      contrasena: this.contrasenaL
+    };
+    
+    this.http.post<LoginResponse>('http://localhost:3001/Login', datos)
+      .subscribe(
+        (respuesta) => {
+          this.mensaje = 'Autenticación Exitosa';
+          if (respuesta.message === 'Autenticado') {
+            this.mensaje = 'Autenticación Exitosa';
+            alert(this.mensaje);
+            //Agregar redireccionamiento a página principal
+          } else if (respuesta.message === 'Contraseña incorrecta') {
+            this.mensaje = 'Contraseña incorrecta';
+            alert(this.mensaje);
+          } else if (respuesta.message === 'Usuario no encontrado') {
+            this.mensaje = 'Usuario no encontrado';
+            alert(this.mensaje);
+          } else {
+            this.mensaje = 'Error interno del servidor';
+            alert(this.mensaje);
+          }
+        },
+        (error) => {
+          console.error('Datos Incorrectos', error);
+          this.mensaje = 'Datos Incorrectos';
+          alert(this.mensaje);
         }
       );
   }
